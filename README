@@ -1,0 +1,11 @@
+This project builds a movie knowledge graph using the IMDb dataset(https://datasets.imdbws.com/) and Neo4j Graph Data Science (GDS). 
+It connects movies with actors, directors, and genres using various relationship types and applies graph algorithms for advanced movie analysis and recommendation.
+
+- Build a movie knowledge graph from IMDb data
+- Create relationships like:
+   `ACTED_IN`, `DIRECTED`, `IN_GENRE`, `CO_ACTED_WITH`, `CO_DIRECTED`,`SIMILAR_TO`
+- Perform exploratory graph analysis (e.g., degree distribution, community detection, centralities) 
+- Enrich nodes with features like PageRank, community, embeddings, etc.
+- Project a monopartite or co-occurrence network 
+- Construct a similarity graph (e.g., based on shared actors or genres) 
+- Perform link prediction to suggest collaborations or similar movies using machine learning (random forest, LogReg, MLP)
